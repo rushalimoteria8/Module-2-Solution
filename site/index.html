@@ -1,9 +1,213 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello Courera</title>
+	<meta charset="utf-8">
+	<title>Module2-Assignment-Solution</title>
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-family: Helvetica;
+  color: #78281F;
+}
+
+div.container {
+  background-color: #339C8F;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid black;
+  width: 80%;
+  height: 200px;
+
+}
+
+div#h1,div#h2,div#h3 {
+	border: 2px solid black;
+	height: 25px;
+	width: 136px;
+	background-color: white;
+	margin-bottom: 15px;
+	text-align: center;
+	position: relative;
+	left: 220px;
+	font-family: Bookman, serif;
+	color: white;
+	font-size: 18px;
+	font-style: bold;
+}
+
+div#h1{
+
+	background-color: #CD5C5C;
+}
+
+div#h2{
+
+	background-color: #D68910;
+}
+
+div#h3{
+
+	background-color: #6C3483;
+}
+
+#p1, #p2, #p3{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+
+  
+/***#p1 {
+  background-color: #A52A2A;
+}
+#p2 {
+  background-color: #DEB887;
+}
+#p3 {
+  background-color: #5F9EA0;
+}
+#p4 {
+  background-color: #FF7F50;
+}***/
+
+/***p {
+  border: 1px solid black;
+  background-color: #A52A2A;
+  width: 80%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+}**/
+
+
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    border: 1px solid white;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 950px) and (max-width: 1199px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    border: 1px solid white;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+</style>
 </head>
 <body>
-<h1>Helooooo Yayyy!!!</h1>
+<h1>MENU</h1>
+
+<section class="row">
+  <section class="col-lg-4 col-md-6">
+  	<div class="container">
+  		<div id="h1">Chicken</div>
+  		<div id="p1"> The chicken, a subspecies of the red junglefowl, is a type of domesticated fowl, originally from Southeastern Asia. Rooster or cock is a term for an adult male bird. A younger male may be called a cockerel; a male that has been castrated is a capon. The adult female bird is called a hen. </div>
+  	</div>
+  </section>
+
+  <section class="col-lg-4 col-md-6">
+  	<div class="container">
+  		<div id="h2">Beef</div>
+  		<div id = "p2"> Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.Beef is a source of protein and nutrients.Most beef can be used as is by merely cutting into certain parts, such as roasts, short ribs or steak, while other cuts are processed. </div>
+  	</div>
+  </section>
+
+  <section class="col-lg-4 col-md-6">
+  	<div class="container">
+  		<div id="h3">Sushi</div>
+  		<div id="p3"> Sushi is a traditional Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely, but the one key ingredient is "sushi rice", also referred to as shari.</div>
+  	</div>
+  </section>
+  
+</section>
+
 </body>
 </html>
