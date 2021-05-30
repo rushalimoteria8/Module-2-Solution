@@ -32,7 +32,6 @@ div#h1,div#h2,div#h3 {
   position: absolute;
   top : 0;
   right : 0;
-  /**left: 220px;**/
   font-family: Bookman, serif;
   color: white;
   font-size: 18px;
